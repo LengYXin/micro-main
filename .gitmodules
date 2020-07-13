@@ -1,0 +1,6 @@
+[submodule "packages/micro-vue"]
+	path = packages/micro-vue
+	url = https://github.com/LengYXin/micro-vue.git
+[submodule "packages/micro-react"]
+	path = packages/micro-react
+	url = https://github.com/LengYXin/micro-react.git

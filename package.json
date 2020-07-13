@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "version": "0.0.5",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "cd packages/main && npm start",
+    "dev:react": "cd packages/micro-react && npm start",
+    "dev:vue": "cd packages/micro-vue && npm start",
+    "build": "cd packages/main && npm run build",
+    "init": "lerna bootstrap",
+    "docs": "docsify serve docs",
+    "clean": "lerna clean",
+    "clean-all": "npm run clean && rimraf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2",
+    "webpack": "4.42.0"
+  }
+}
