@@ -4,3 +4,6 @@
 [submodule "packages/micro-react"]
 	path = packages/micro-react
 	url = https://github.com/LengYXin/micro-react.git
+[submodule "packages/micro-helper"]
+	path = packages/micro-helper
+	url = https://github.com/LengYXin/micro-helper.git
