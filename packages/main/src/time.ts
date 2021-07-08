@@ -76,7 +76,7 @@ export class EntitiesTimeStore {
         //     this.onStartTime();
         // }
         this.TimeSubscription = interval(1000).pipe(map(() => Date.now())).subscribe(obs => {
-            // console.log("EntitiesTimeStore -> onStartTime -> this", this)
+            console.log("EntitiesTimeStore -> onStartTime -> this", this)
             this.onSetTime(obs);
 
         });
